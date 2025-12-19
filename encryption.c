@@ -1,5 +1,5 @@
 #include "encryption.h"
-
+ 
 uint8_t gmul2(uint8_t a) {
     return (a << 1) ^ (((a >> 7) & 1) * 0x1b);
 }
@@ -221,3 +221,4 @@ void printHex(uint8_t* data, int len) {
     }
     if (len % 16 != 0) printf("\n");
 }
+
