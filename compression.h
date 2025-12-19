@@ -39,3 +39,5 @@ void getCodes(MinHeapNode* root, HuffmanCode codes[], int* size);
 char* compressHuffman(char* input, HuffmanCode codes[], int codeSize, long* compressedBits);
 char* decompressHuffman(char* compressed, MinHeapNode* root, long originalLength);
 void calculateFrequency(char* input, char data[], int freq[], int* size);
+
+ 
