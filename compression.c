@@ -7,7 +7,7 @@ MinHeapNode* createNode(char data, unsigned freq) {
     temp->freq = freq;
     return temp;
 }
-
+ 
 MinHeap* createMinHeap(unsigned capacity) {
     MinHeap* minHeap = (MinHeap*)malloc(sizeof(MinHeap));
     minHeap->size = 0;
@@ -164,3 +164,4 @@ void calculateFrequency(char* input, char data[], int freq[], int* size) {
         }
     }
 }
+
