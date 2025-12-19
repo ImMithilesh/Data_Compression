@@ -7,7 +7,7 @@
 int main() {
     char* input = (char*)malloc(10000 * sizeof(char));
     char password[256];
-
+ 
     printf("========================================\n");
     printf("INTEGRATED COMPRESSION + ENCRYPTION\n");
     printf("Huffman Coding + AES-128\n");
@@ -192,3 +192,4 @@ int main() {
 
     return 0;
 }
+
